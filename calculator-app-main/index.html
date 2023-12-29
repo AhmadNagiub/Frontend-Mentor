@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="theme1">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+    <div class="settings">
+      <div class="name">Calc</div>
+      <div class="themes">
+        <span>theme</span>
+        <ul>
+          <li id="theme1" class="bg"></li>
+          <li id="theme2"></li>
+          <li id="theme3"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="screenResult">
+      <form name="calc">
+				<input type="text" name="text" readonly id="screen">
+			</form>
+    </div>
+
+    <div class="keyContainer">
+      <div class="keys">
+        <div class="key" onclick="document.calc.text.value+='7'">7</div>
+        <div class="key"  onclick="document.calc.text.value+='8'">8</div>
+        <div class="key"  onclick="document.calc.text.value+='9'">9</div>
+        <div class="key del" onclick="del()">DEL</div>
+        <div class="key"  onclick="document.calc.text.value+='4'">4</div>
+        <div class="key"  onclick="document.calc.text.value+='5'">5</div>
+        <div class="key"  onclick="document.calc.text.value+='6'">6</div>
+        <div class="key" onclick="document.calc.text.value+='+'">+</div>
+        <div class="key"  onclick="document.calc.text.value+='1'">1</div>
+        <div class="key"  onclick="document.calc.text.value+='2'">2</div>
+        <div class="key"  onclick="document.calc.text.value+='3'">3</div>
+        <div class="key" onclick="document.calc.text.value+='-'">-</div>
+        <div class="key" onclick="document.calc.text.value+='.'">.</div>
+        <div class="key"  onclick="document.calc.text.value+='0'">0</div>
+        <div class="key" onclick="document.calc.text.value+='/'">/</div>
+        <div class="key" onclick="document.calc.text.value+='*'">*</div>
+        <div class="key Reset" onclick="document.calc.text.value=''">Reset</div>
+        <div class="key Equal" onclick="document.calc.text.value= eval(calc.text.value)">=</div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
