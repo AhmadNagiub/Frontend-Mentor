@@ -39,4 +39,4 @@ Users should be able to:
 - Website - [Ahmed Nagiub](https://ahmadnagiub.github.io/portfolio/)
 - Frontend Mentor - [@AhmadNagiub](https://www.frontendmentor.io/profile/AhmadNagiub)
 - linked in - [@ahmed-nagiub33](https://www.linkedin.com/in/ahmed-nagiub33/)
-- Live Site - [@Demo](https://ahmadnagiub.github.io/Frontend-Mentor/product-preview-card-component-main/)
+- Live Site - [@Demo](https://ahmadnagiub.github.io/Frontend-Mentor/calculator-app-main/)
